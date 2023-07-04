@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+.main-page {
+    background-color: #eef1f2;
+}
+.count-down {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.count-down img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.row{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    margin-inline: 0!important;
+}
+.row .col-4 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.row .col-4:first-child {
+    border-top-left-radius: 8px;
+}
+.row .col-4:nth-child(3) {
+    border-top-right-radius: 8px;
+}
+.row .col-4:nth-child(10) {
+    border-bottom-left-radius: 8px;
+}
+.row .col-4:nth-child(12) {
+    border-bottom-right-radius: 8px;
+}
+.col-4{
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    aspect-ratio : 1 / 1;
+    padding: 8px;
+}
+.subject-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.subject-item img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    
+}
+
+
+
+/* ĐỀ THI  */
+.exam {
+    background-color: #fff;
+}
+.exam header {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navigation-bar {
+    padding:20px 15px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+}
+.navigation-bar .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}   
+.navigation-bar .navigation img{
+    margin-right: 15px;
+}
+.navigation-bar .semester {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-bar .semester p {
+    margin-right: 8px;
+}
+
+
+/* TABPANE  */
+.tabpane {
+    display: flex;
+    width: 100%;
+    margin-top: 12px;
+}
+.tabpane .tabpill {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 0;
+    font-size: 16px;
+}
+.tabpane .tabpill p{
+    line-height: 1;
+    font-weight: 500;
+
+}
+.yeuthich,.tailieu {
+    display: none;
+}
+
+/* TABCONTENT  */
+.tabcontent {
+    padding:20px;  
+}
+.tabcontent .tabcontent-item {
+    margin-bottom: 28px;
+}
+.tabcontent .tabcontent-item p{
+    font-weight: 500;
+}
+.tabcontent-item p:hover{
+    color: #62B8B1  ;
+}
+.tabcontent-item .test-info {
+    display: flex;
+    align-items: center;
+    color: #7A51EF;
+    margin-top: 4px;
+}
+.tabcontent-item .test-info .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+.tabcontent-item .test-info .info img{
+    width: 16px;
+    margin-right: 4px;
+}
+.tabcontent-item .test-info .info p{
+    font-weight: 400;
+    font-size: 14px;
+}
