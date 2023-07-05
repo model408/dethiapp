@@ -6,9 +6,14 @@
 p{
     margin: 0;
 }
-.main-page {
-    background-color: #eef1f2;
+a{
+    text-decoration: none;
+    color:#000;
 }
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .count-down {
     display: flex;
     justify-content: flex-start;
@@ -29,23 +34,23 @@ p{
     border-radius: 8px;
     margin-inline: 0!important;
 }
-.row .col-4 p{
+.row .subject-container p{
     font-size: 16px;
     font-weight: 500;
 }
-.row .col-4:first-child {
+.row .subject-container:first-child {
     border-top-left-radius: 8px;
 }
-.row .col-4:nth-child(3) {
+.row .subject-container:nth-child(3) {
     border-top-right-radius: 8px;
 }
-.row .col-4:nth-child(10) {
+.row .subject-container:nth-child(10) {
     border-bottom-left-radius: 8px;
 }
-.row .col-4:nth-child(12) {
+.row .subject-container:nth-child(12) {
     border-bottom-right-radius: 8px;
 }
-.col-4{
+.subject-container{
     border: 1px solid #eeeeee;
     background-color: #fff;
     aspect-ratio : 1 / 1;
@@ -72,6 +77,7 @@ p{
 /* ĐỀ THI  */
 .exam {
     background-color: #fff;
+    display: none;
 }
 .exam header {
     background-color: #fff;
@@ -159,4 +165,74 @@ p{
 .tabcontent-item .test-info .info p{
     font-weight: 400;
     font-size: 14px;
+}
+
+/* YEU THICH  */
+.favorite-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px);
+}
+.no-data-img {
+    width: 200px;
+}
+.favorite-heading {
+    font-weight: 500;
+    font-size: 18px;
+    color: #75A3Fc;
+}
+.favorite-text {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.1;
+    color: #757575;
+    font-weight: 400;
+}
+
+
+/* TAB TỪNG MÔN HỌC  */
+.navigation-heading{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.back-mainpage {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.back-mainpage img{
+    width: 20px;
+    height: 20px;
+}
+
+.subject-name {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #846AEF;
+    margin-top: 50px;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+
+.subject-options {
+    gap: 4px;
+}
+.subject-options .option-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.subject-options .option-item img {
+    width: 60px;
 }

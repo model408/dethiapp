@@ -14,3 +14,17 @@ $('.tabpill').on('click',function() {
     // }
 
 })
+
+
+let currentSubject = ''
+var subjectItems = $('.subject-item')
+// $('.subject-item').each(function() {
+//     console.log($(this).children().eq(1).text());
+    
+// })
+$(document).on('click','.subject-item',function() {
+    currentSubject = $(this).children().eq(1).text()
+    $('.mainpage').hide()
+    $('.exam').show()
+    $('.current-subject').html(currentSubject) 
+})

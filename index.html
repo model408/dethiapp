@@ -10,7 +10,7 @@
 </head>
 <body>
 
-        <main class="mainpage">
+        <main class="mainpage d-none" >
             <div class="container">
                 <main>
                     <header>
@@ -20,84 +20,273 @@
                         </div>
                     </header>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/math.png" alt="math"/>
                                 <p>Toán học</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/physic.png" alt="math"/>
                                 <p>Vật lý</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/chemistry.png" alt="math"/>
                                 <p>Hóa học</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/biology.png" alt="math"/>
                                 <p>Sinh học</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/english.png" alt="math"/>
                                 <p>Tiếng Anh</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/history.png" alt="math"/>
                                 <p>Lịch sử</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/geography.png" alt="math"/>
                                 <p>Địa lý</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/literature.png" alt="math"/>
                                 <p>Ngữ văn</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/gdcd.png" alt="math"/>
                                 <p>GDCD</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/technology.png" alt="math"/>
                                 <p>Công nghệ</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/computer.png" alt="math"/>
                                 <p>Tin học</p>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 subject-container">
                             <div class="subject-item">
                                 <img src="img/schedule.png" alt="math"/>
                                 <p>Tạo TKB</p>
                             </div>
                         </div>
                     </div>
-                    <a href="dethi.html">TO DE THI</a>
+                    <!-- <a href="dethi.html">TO DE THI</a> -->
                 </main>
             </div>
         </main>
 
+        <!-- TAB ĐỀ THI  -->
+        <main class="exam ">
+            <header>
+                <div class="navigation-bar">
+                    <div class="navigation">
+                        <a href="index.html">
+                            <img src="img/back-arrow.png" alt="back arrow"/>
+                        </a>
+                        <p class="current-subject">Tin học</p>
+                    </div>
+                    <div class="semester">
+                        <p>Học kì 1</p>
+                        <img width="12" height="12" src="img/down-arrow.png" alt="" />
+                    </div>
+                </div>
+                <div class="tabpane">
+                    <div id="dethi" class="tabpill active" >
+                        <p>Đề thi</p>
+                    </div>
+                    <div id="yeuthich" class="tabpill">
+                        <p>Yêu thích</p>
+                    </div>
+                    <div id="tailieu" class="tabpill">
+                        <p>Tài liệu</p>
+                    </div>
+                </div>
+            </header>
+            <div class="tabcontent dethi">
+                <div class="tabcontent-item">
+                    <p>Đề kiểm tra giữa HK1 môn Tin học 12 năm 2022-2023 Trường THPT Thới Long</p>
+                    <div class="test-info">
+                        <div class="info">
+                            <img src="img/clock.png" alt="clock"/>
+                            <p>50 phút</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/question.png" alt="question"/>
+                            <p>40 câu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent-item">
+                    <p>Đề kiểm tra giữa HK1 môn Tin học 12 năm 2022-2023 Trường THPT Thới Long</p>
+                    <div class="test-info">
+                        <div class="info">
+                            <img src="img/clock.png" alt="clock"/>
+                            <p>50 phút</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/question.png" alt="question"/>
+                            <p>40 câu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent-item">
+                    <p>Đề kiểm tra chất lượng đầu năm môn Tiếng anh 12 năm 2018-2019 Trường THPT Tôn Đức Thắng</p>
+                    <div class="test-info">
+                        <div class="info">
+                            <img src="img/clock.png" alt="clock"/>
+                            <p>50 phút</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/question.png" alt="question"/>
+                            <p>40 câu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent-item">
+                    <p>Đề kiểm tra chất lượng HK1 môn Tiếng anh 12 năm 2018-2019 Trường THPT Mỹ Quí
+                        
+                    </p>
+                    <div class="test-info">
+                        <div class="info">
+                            <img src="img/clock.png" alt="clock"/>
+                            <p>50 phút</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/question.png" alt="question"/>
+                            <p>40 câu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent-item">
+                    <p>Đề kiểm tra 1 tiết HK1 môn Tiếng Anh 12 năm 2018-2019 Trường THPT Ngã Năm</p>
+                    <div class="test-info">
+                        <div class="info">
+                            <img src="img/clock.png" alt="clock"/>
+                            <p>50 phút</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/question.png" alt="question"/>
+                            <p>40 câu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent-item">
+                    <p>Đề thi HK1 môn Tiếng Anh 12 năm 2018 Trường THPT Nguyễn Trung Trực</p>
+                    <div class="test-info">
+                        <div class="info">
+                            <img src="img/clock.png" alt="clock"/>
+                            <p>50 phút</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/question.png" alt="question"/>
+                            <p>40 câu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent-item">
+                    <p>Đề thi HK1 môn Tiếng anh 12 năm 2019-2020 Trường THPT Phú Lương</p>
+                    <div class="test-info">
+                        <div class="info">
+                            <img src="img/clock.png" alt="clock"/>
+                            <p>50 phút</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/question.png" alt="question"/>
+                            <p>30 câu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabcontent-item">
+                    <p>Đề kiểm tra chất lượng HK1 môn Tiếng Anh 12 năm 2020-2021 Trường THPT Mỹ Quý</p>
+                    <div class="test-info">
+                        <div class="info">
+                            <img src="img/clock.png" alt="clock"/>
+                            <p>50 phút</p>
+                        </div>
+                        <div class="info">
+                            <img src="img/question.png" alt="question"/>
+                            <p>40 câu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+            <div class="tabcontent yeuthich">
+                <div class="favorite-tab">
+                    <img class="no-data-img" src="img/document.png" alt="no-data" />
+                    <p class="favorite-heading">Bạn chưa có đề thi yêu thích nào</p>
+                    <p class="favorite-text">Làm 1 đề thi bất kì -> Nhấn vào biểu tượng Trái tim trên góc phải màn hình để thêm</p>
+                </div>
+            </div>
+              
+            <div class="tabcontent tailieu">
+                <h3>Contact</h3>
+                <p>Get in touch, or swing by for a cup of coffee.</p>
+            </div>
+        </main>
+
+        <!-- TAB TUNG MON  -->
+        <!-- TAB MON TOAN -->
+        <main id="math" class="subject-mainpage">
+            <div class="container">
+                <div class="navigation-heading">
+                    <div class="back-mainpage">
+                        <img src="img/back-arrow-purple.png" alt="back icon" />
+                    </div>
+                </div>
+                <div class="subject-name">
+                    <p>Toán</p>
+                </div>
+                <div class="subject-options row">
+                    <div class="col-4">
+                        <div class="option-item">
+                            <img src="img/math-1.jpg" />
+                            <p>Giải SGK & SBT Toán</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="option-item">
+                            <img src="img/math-1.jpg" />
+                            <p>Giải SGK & SBT Toán</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="option-item">
+                            <img src="img/math-1.jpg" />
+                            <p>Giải SGK & SBT Toán</p>
+                        </div>
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+        </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
